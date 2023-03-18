@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./img/Favicon.png" type="image/x-icon">
+    <title>BubbleChat</title>
+</head>
+<body>
+  <section id="section">
+  <div id="comments-section">
+  </div>
+  <form id="form">
+    <div id="form-wrapper">
+      <div id="name-wrapper">
+        <label id="label-name" for="name">Name</label>
+        <input id="name" type="text" name="nameInput" placeholder="Enter your name"><span id="nameError"></span>
+      </div>
+      <div id="date-wrapper">
+        <label id="label-date" for="date">Date of comment</label>
+        <input id="date" type="date" name="dateInput">
+      </div>
+      <div id="text-area-wrapper">
+        <textarea id="text-area" name="textAreaInput" placeholder="Add your comment"></textarea><span id="commentError"></span>
+      </div>
+      <button id="button" type="submite" value="button">Send</button>
+    </div>
+  </form>
+</section>
+  <script src="./script.js"></script>
+</body>
+</html>
